@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <title>Resfriamento Global</title>
+    <base target="_blank" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Stoke">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <img class="imgLogo" src="imagens/ResfGlobLogoDeitado.png" aling="left">
+    <address class="ender">
+        Av. Novaya Zemlya, 1870<br>
+        Cel: (21) 98765-4321<br>
+        <a href="mailto:contato@resfriglob.com.br">contato@resfriglob.com.br</a>
+    </address>
+</header>
+<nav>
+    <ul>
+        <li>
+            <a href="apresentação2.html">Apresentação</a>
+        </li>
+        <li>
+            <a href="tipos.html">Tipos</a>
+        </li>
+        <li>
+            <a href="estoque.html">Estoque</a>
+        </li>
+        <li>
+            <a href="cadastro.html">Cadastro</a>
+        </li>
+        <li>
+            <a href="compras.html">Compras</a>
+        </li>
+    </ul>
+</nav>
+<section>
+    <div class="table"
+    <form method="POST">   
+        <h3>Cadastro</h3> 
+         
+<fieldset><legend class="id">Identificação</legend>
+<div class="fsLinha">
+    <label for="idEmail" class="colPri">E-mail:</label>
+    <input id="idEmail" class="inpGrande"
+        type="email" name="TxtEmail" required />
+</div>
+<div class="fsLinha">
+    <label for="idSenha" class="colPri">Senha:</label>
+    <input id="idSenha" class="inpMedio"
+    type="password" name="TxtSenha" required />
+    <label for="idConf" class="elemDir">Confirme:
+    <input id="idConf" class="inpMedio"
+        type="password" name="TxtConf" required /></label>
+</div>
+</fieldset>
+<fieldset><legend class="id">Dados Pessoais</legend>
+<div class="fsLinha">
+    <label class="colPri">Nome:</label>
+    <input type="text" class="inpGrande"
+    name="TxtNomeCompleto" />
+    </label>
+</div>
+<div class="fsLinha">
+    <label class="colPri">Endereço:</label>
+    <textarea name="TxtEnder" rows="2" class="inpGrande"></textarea>
+    </label>
+</div>
+<div class="fsLinha">
+    <label class="colPri">Telefone:</label>
+    <input type="text" class="inpMedio"
+     name="TxtTelefone" required />
+    </label>
+        
+    <label class="elemDir">Celular:
+    <input type="text" class="inpMedio"
+    name="TxtCelular" /></label>
+</div>
+<fieldset class="fsEsq"><legend>Nacimento:</legend>
+    <input type="number" name="TxtDiaNasc"
+    min="1" max="31" class="numDD" /> /
+    <input type="number" name="TxtMesNasc"
+    min="1" max="12" class="numDD" /> /
+    <input type="number" name="TxtAnoNasc" value="1980"
+    min="1920" max="2023" class="numQD" />
+</fieldset>
+<fieldset class="fsDir"><legend>Sexo:</legend>
+    <label><input type="radio" name="TglSexo"
+    value="M" checked />Mas</label>
+    <label><input type="radio" name="TglSexo"
+    value="F" />Fem</label>
+    <label><input type="radio" name="TglSexo"
+    value="O"/> Outro</label>
+</fieldset>
+<div class="botoes">
+    <input type="submit" value="Cadastrar" />
+    <input type="reset" value="Limpar" />
+</div>
+    </form>
+</div>
+</section>
+</body>
+</html>
